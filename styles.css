@@ -83,5 +83,9 @@
     color: white;
     outline: none;
     transition: .6s ease;
-
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
 }
