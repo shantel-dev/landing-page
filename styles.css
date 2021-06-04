@@ -39,3 +39,15 @@
 }
 
 /* Home Section */
+#home{
+    display: flex;
+    flex-direction: column;
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url();
+}
