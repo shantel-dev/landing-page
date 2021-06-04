@@ -84,8 +84,18 @@
     outline: none;
     transition: .6s ease;
 }
-.btn:hover{
-    cursor: pointer;
-    background-color: white;
-    color: black;
-}
+ /* About Section */
+ #about{
+     display: flex;
+     flex-direction: column;
+     box-sizing: border-box;
+     padding: 20px;
+     margin-bottom: 50px;
+ }
+ #pic{
+     display: flex;
+ }
+ #pic img{
+     width: 575px;
+     height: 400px;
+ }
