@@ -116,6 +116,19 @@
  #mywork{
      background-color: lavenderblush;
      display: flex;
+     flex-direction: column;
+     box-sizing: border-box;
+     padding: 30px;
+     margin-bottom: 60px;
+
  }
+ #intro{
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     padding: 10px;
+ }
+
+
 
 
