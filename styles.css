@@ -54,7 +54,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    background-image: url("..") no-repeat center center/cover;
+    background: url("0.jpg") no-repeat center center/cover;
     height: 900px;
     width: 100%;
     z-index: -1;
@@ -96,6 +96,20 @@
      display: flex;
  }
  #pic img{
-     width: 575px;
+     width: 300px;
      height: 400px;
  }
+ #intro{
+     display: flex;
+     flex-direction: column;
+     text-align: justify;
+     padding: 10px;
+ }
+ #intro h3{
+     font-size: 3rem;
+     margin-bottom: 20px;
+ }
+
+ /* My Work */
+
+
